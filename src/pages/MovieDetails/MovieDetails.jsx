@@ -36,20 +36,22 @@ const MovieDetails = () => {
         <div className="MovieDetail__col">
           <div className="MovieDetail__details">
             <div className="MovieDetail__detail">
-              <span>Budget: </span> {movie.budget}
+              <span>Budget: </span> ${movie.budget}
             </div>
             <div className="MovieDetail__detail">
               <span>Original language: </span> {movie.original_language}
             </div>
             <div className="MovieDetail__detail">
-              <span>Popularity: </span> {movie.popularity}
+              <span>Popularity: </span> {movie.popularity}M
             </div>
             <div className="MovieDetail__detail">
-              <span>Overview: </span> {movie.overview}
+              <span>Overview: </span> <br /> {movie.overview}
             </div>
           </div>
-          <Link to={"/"} className="MovieDetail__button">
-            Voltar
+          <Link to={"/"}>
+            <button onClick={getMovie()}>
+              <span className="text">Voltar</span>
+            </button>
           </Link>
         </div>
       </div>
