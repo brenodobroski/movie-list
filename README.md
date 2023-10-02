@@ -1,8 +1,24 @@
-# React + Vite
+# Movie List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um site de listagem de filmes, que apresenta os 20 filmes mais populares, alem de pesquisa e ver detalhes de cada filme
 
-Currently, two official plugins are available:
+## Live Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://movie-list-flame-one.vercel.app/
+
+## Funcionalidades
+
+- Listar filmes
+- Pesquisa de filmes
+- Mostrar detalhes do filme
+
+## Aprendizados
+
+Utilização de React Router, conexão a api com Axios, SASS, useState, useEffect e useParams
+
+## Tecnologias utilizadas
+
+- React.js
+- React Router
+- SASS
+- Axios
