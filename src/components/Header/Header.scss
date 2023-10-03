@@ -3,8 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem;
-  background-color: #1d1d1d;
-
+  background-color: #171723;
   h1 {
     color: white;
     font-size: 24px;
@@ -24,10 +23,10 @@
     line-height: 28px;
     padding: 0 1rem;
     padding-left: 2.5rem;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     border-radius: 8px;
     outline: none;
-    background-color: #303030;
+    background-color: #21212c;
     color: #f3f3f4;
     transition: 0.3s ease;
   }
@@ -40,7 +39,7 @@
   input:hover {
     outline: none;
     border-color: #5b42f3;
-    background-color: #303030;
+    background-color: #171723;
     box-shadow: 0 0 0 4px rgba(91, 66, 243, 10%);
   }
 

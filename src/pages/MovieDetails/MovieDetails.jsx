@@ -57,10 +57,10 @@ const MovieDetails = () => {
           <div className="MovieDetail__details">
             <h1 className="MovieDetail__title">{movie.title}</h1>
             <div className="MovieDetail__detail">
-              <span>Orçamento: </span> ${translateBudget()}M
+              <span>Tempo de filme: </span> {movie.runtime}m
             </div>
             <div className="MovieDetail__detail">
-              <span>Popularidade: </span> {movie.popularity}M
+              <span>Orçamento: </span> ${translateBudget()}M
             </div>
             <div className="MovieDetail__detail">
               <span>Nota: </span> {translateNote()}
